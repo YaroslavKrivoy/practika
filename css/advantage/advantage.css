@@ -10,40 +10,37 @@
     height: 302px;
 }
 
-.advantage__img-small {
+.advantage__imgBack {
     position: absolute;
     width: 298px;
     height: 182px;
-    background: url('../../img/adv_small.png');
     top: 36px;
     left: 24px;
 }
 
-.advantage__img-big {
+.advantage__imgFront {
     position: absolute;
     width: 395px;
     height: 241px;
-    background: url('../../img/adv-big.png');
     left: 174px;
 }
 
-.advantage__img-default {
+.advantage__keyboard {
     position: absolute;
     width: 486px;
     height: 35px;
-    background: url('../../img/keyboard_&_mouse_1.png');
     top: 277px;
     left: 34px;
 }
 
-.advantage__img-small::before {
+.advantage__imgBack::before {
     position: absolute;
     content: url('../../img/shadow.png');
     display: block;
     left: 107px;
 }
 
-.advantage__img-big::before {
+.advantage__imgFront::before {
     position: absolute;
     content: url('../../img/shadow_bot.png');
     display: block;

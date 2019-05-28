@@ -3,12 +3,12 @@
     padding-top: 42px;
 }
 
-.project-padding {
+.project__padding {
     padding-left: 0;
     padding-right: 0;
 }
 
-.project-row {
+.project__margin {
     margin-right: 0;
     margin-left: 0;
 }
@@ -38,7 +38,6 @@
 .multiSlider__img {
     width: 388px;
     height: 202px;
-    background: #cccccc;
     cursor: pointer;
 }
 
@@ -171,11 +170,11 @@
     left: 17px;
 }
 
-.slide1:hover>.tool1,
-.slide2:hover>.tool2,
-.slide3:hover>.tool3,
-.slide4:hover>.tool4,
-.slide5:hover>.tool5 {
+.slideOne:hover>.toolOne,
+.slideTwo:hover>.toolTwo,
+.slideThree:hover>.toolThree,
+.slideFour:hover>.toolFour,
+.slideFive:hover>.toolFive {
     display: flex;
     cursor: pointer;
 }

@@ -11,13 +11,6 @@
 		display: block;
 		margin: 0;
 	}
-	.accordeon__content{
-		width: 100%;
-	}
-
-	.accordeon__text{
-		width: 100%;
-	}
 
 	.report{
 		margin-left: 36px;
@@ -48,7 +41,7 @@
 		padding-left: 0;
 	}
 
-	.partner-margin{
+	.partner__margin{
 		margin-left: -35px;
 	}
 
@@ -97,7 +90,7 @@
 		padding-left: 15px;
 	}
 
-	.partner-margin{
+	.partner__margin{
 		margin-left: -15px;
 	}
 
@@ -108,6 +101,10 @@
 
 	.footer__tweet{
 		margin-left: 3px;
+	}
+
+	.accordeon__content{
+		width: 272px;
 	}
 }
 
